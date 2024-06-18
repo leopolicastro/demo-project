@@ -1,3 +1,5 @@
+const User = require("../../models/");
+
 async function logIn(req, res) {
   try {
     let user = await User.findByCredentials(req.body.email, req.body.password);

@@ -1,7 +1,6 @@
 const express = require("express"),
-  User = require("../../models/user"),
-  router = new express.Router();
-const usersController = require("../../controllers/users_controller");
+  router = new express.Router(),
+  usersController = require("../../controllers/users_controller");
 
 // ***********************************************//
 // Login Check
